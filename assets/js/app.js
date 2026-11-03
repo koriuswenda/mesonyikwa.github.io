@@ -141,7 +141,7 @@ function layout(){
     : `<li><a href="${h}" class="${page===k?'active':''}">${t}</a></li>`).join('');
   $('#site-header').innerHTML = `
   <div class="topbar"><div class="wrap"><div><span>📅 <b id="d"></b></span><span>🕘 <b id="clock"></b> WIT</span><button class="top-hours" data-hours aria-label="Lihat jam buka lengkap"><span class="js-pill"></span><u>Jam buka</u></button></div>
-  <div class="right"><span>📍 ${SITE.addr}</span><span>📞 <a href="tel:+${SITE.wa}">${SITE.phone}</a></span><div class="social-links sm">${socials()}</div></div></div></div>
+  <div class="right"><span>📞 <a href="tel:+${SITE.wa}">${SITE.phone}</a></span><div class="social-links sm">${socials()}</div></div></div></div>
   <nav class="nav"><div class="wrap"><a class="brand" href="index.html"><img src="${IMG}logo.png" alt="Logo"><span>${SITE.name}</span></a>
   <ul class="menu" id="menu">${li}</ul>
   <div class="actions"><button class="icon-btn" id="themeBtn" aria-label="Tema">🌓</button><button class="icon-btn" id="cartBtn" aria-label="Keranjang">🛒<span class="badge" id="cartCount">0</span></button><a class="btn btn-primary btn-sm hide-sm" href="${waLink(HELLO)}" target="_blank" rel="noopener">Pesan via WhatsApp</a><button class="icon-btn burger" id="burger" aria-label="Menu">☰</button></div></div></nav>`;
