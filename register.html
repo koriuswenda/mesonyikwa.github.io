@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Daftar — SI-WARKOP-MUNIGAKA-SHOP</title>
+<link rel="icon" href="assets/images/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="register">
+<div id="site-header"></div>
+<div class="page-hero"><div class="wrap"><h1>Daftar</h1><p>Buat akun gratis dan mulai pesan.</p></div></div>
+<main class="wrap" style="padding:40px 0">
+<form class="form" id="authForm"><h1>Buat akun</h1><p style="color:var(--muted)">Gratis dan cepat.</p>
+<div class="field"><label>Nama lengkap</label><input name="nama" required autocomplete="name"></div>
+<div class="field"><label>Email</label><input name="email" type="email" required autocomplete="email"></div>
+<div class="field"><label>Kata sandi</label><input name="pass" type="password" required minlength="6" autocomplete="new-password"></div>
+<div class="field"><label>Ulangi kata sandi</label><input name="pass2" type="password" required autocomplete="new-password"></div>
+<div class="msg" id="msg"></div><button class="btn btn-primary">Daftar</button><p class="alt">Sudah punya akun? <a href="login.html">Masuk</a></p></form>
+</main>
+<div id="site-footer"></div>
+<script src="assets/js/app.js"></script>
+</body></html>

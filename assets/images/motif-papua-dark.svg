@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 560" width="560" height="560">
+<defs>
+<g id="tifa"><ellipse cx="0" cy="-50" rx="24" ry="8"/><path d="M-24 -50C-18 -30 -10 -14 -10 -2C-10 14 -28 30 -30 52M24 -50C18 -30 10 -14 10 -2C10 14 28 30 30 52M-30 52Q0 64 30 52M-10 -6q-14 2 -14 8t14 8M-27 40l6 -6 6 6 6 -6 6 6 6 -6 6 6 6 -6 6 6M-16 -46l-2 7M-5 -42l-1 7M6 -42l1 7M17 -46l2 7M-6 12h12"/></g>
+<g id="cup"><path d="M-30 -10h60v14a28 28 0 0 1 -28 28h-4a28 28 0 0 1 -28 -28zM30 -4h8a10 10 0 0 1 0 20h-10M-44 40q44 14 88 0M-10 -18c-8 -8 8 -14 0 -24M8 -18c-8 -8 8 -14 0 -24M-20 4h40"/></g>
+<g id="bird"><path d="M-10 0C-6 -14 12 -22 24 -16M24 -12C26 0 12 12 -6 10C-12 8 -12 4 -10 0M36 -19l11 2M28 -24q-2 -10 6 -14M25 -24q-7 -8 -1 -14M8 10v14m-5 0h10M-6 24h40M-10 0C-40 10 -60 40 -100 38M-12 6C-44 24 -56 60 -96 70M-8 -4C-36 0 -70 14 -110 6M-4 6C-30 30 -34 52 -60 82"/><circle cx="30" cy="-18" r="6"/><circle cx="32" cy="-19" r="1.2"/></g>
+<g id="leaf"><path d="M0 0C20 -5 50 -5 80 10M20 -2C24 -26 46 -34 58 -30C58 -14 44 0 20 -2zM22 -3L52 -26M40 4C46 24 66 30 76 26C74 12 62 2 40 4zM42 5L68 22"/><circle cx="26" cy="10" r="5"/><circle cx="35" cy="17" r="5"/></g>
+<g id="bean"><ellipse rx="12" ry="18" transform="rotate(25)"/><path d="M-3 -16C8 -6 -8 6 3 17" transform="rotate(25)"/></g>
+<g id="chev"><path d="M0 0l10 -14 10 14 10 -14 10 14 10 -14 10 14 10 -14 10 14M0 10h80M0 16h80"/></g>
+<g id="diam"><path d="M0 -16L16 0L0 16L-16 0zM0 -7L7 0L0 7L-7 0z"/><circle r="1.6"/></g>
+<g id="flower"><circle r="4"/><path d="M0 -6V-18M0 6V18M-6 0H-18M6 0H18M4 -4L13 -13M-4 -4L-13 -13M4 4L13 13M-4 4L-13 13"/></g>
+</defs>
+<g fill="none" stroke="#9db8ff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+<use href="#tifa" transform="translate(90 110) rotate(-12)"/>
+<use href="#cup" transform="translate(330 70) rotate(8) scale(.9)"/>
+<use href="#bird" transform="translate(470 200) rotate(-6) scale(.8)"/>
+<use href="#leaf" transform="translate(40 330) rotate(-20) scale(.9)"/>
+<use href="#bean" transform="translate(250 240) rotate(20)"/>
+<use href="#bean" transform="translate(300 420) rotate(-30)"/>
+<use href="#bean" transform="translate(520 360) rotate(40)"/>
+<use href="#tifa" transform="translate(340 480) rotate(14) scale(.85)"/>
+<use href="#cup" transform="translate(110 505) rotate(-10) scale(.8)"/>
+<use href="#diam" transform="translate(200 140)"/>
+<use href="#diam" transform="translate(455 55)"/>
+<use href="#chev" transform="translate(170 340)"/>
+<use href="#flower" transform="translate(215 40)"/>
+<use href="#flower" transform="translate(30 220)"/>
+<use href="#flower" transform="translate(510 470)"/>
+<use href="#leaf" transform="translate(440 330) rotate(160) scale(.7)"/>
+<use href="#bean" transform="translate(160 250) rotate(-50) scale(.8)"/>
+<use href="#bean" transform="translate(30 30) rotate(10) scale(.8)"/>
+</g></svg>
